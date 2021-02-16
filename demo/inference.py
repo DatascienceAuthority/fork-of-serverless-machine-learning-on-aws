@@ -6,6 +6,9 @@ import json
 import base64
 import sklearn
 
+model = pickle.load(open('model.pkl', 'rb'))
+
+
 net = model_zoo.get_model('yolo3_mobilenet1.0_coco', pretrained=True, root='/tmp/')
 
 def lambda_handler(event, context):
