@@ -4,9 +4,9 @@ import requests
 from io import BytesIO
 import json
 import base64
-import sklearn
+#import sklearn
 
-model = pickle.load(open('model.pkl', 'rb'))
+#model = pickle.load(open('model.pkl', 'rb'))
 
 
 net = model_zoo.get_model('yolo3_mobilenet1.0_coco', pretrained=True, root='/tmp/')
