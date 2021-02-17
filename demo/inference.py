@@ -4,7 +4,7 @@ import requests
 from io import BytesIO
 import json
 import base64
-#import sklearn
+import sklearn
 
 #model = pickle.load(open('model.pkl', 'rb'))
 
